@@ -1,0 +1,281 @@
+
+#agritech{
+            background-color:rgba(247, 247, 247, 0.026);
+            color:white;
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 35px;
+            background-color:green;
+            position: fixed;    
+            width: 100%;
+            height:90px;
+            z-index: 100;
+             
+            
+        }
+        .cover{
+            height:90px;
+            width:100%;
+        }
+
+        #pdt{
+            color: black;
+        }
+         .logo{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+        } 
+        .logo img{
+            transform: translateX(-20px);
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+         .content{
+            color: rgb(1, 1, 1);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1px;
+        
+        } 
+        .content li{
+            list-style: none;
+            margin: 0px 10px;
+            cursor: pointer;
+            margin: 0px 40px;
+            font-weight: 100;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 20px;
+        }
+        .dropdown-content a{
+            font-weight: normal;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown{
+            
+            position: relative;
+            display: inline-block;
+            border-radius: solid;
+        }
+        a{
+            font-weight: bold;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .dropdown-content a:hover{
+            background-color: #099732;
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: rgb(13, 75, 156);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 100;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button:hover{
+            background-color: rgba(57, 212, 80, 0.759);
+        }
+        /*.fakepage{
+            height: 1px;
+            width: 100%;
+            background-color: #40c25ef1;
+        }
+            */
+
+#carouselExampleSlidesOnly{
+    width: 100%;
+    height: 100%;
+}
+        .carousel-inner img{
+            object-fit: inherit;
+            height: 650px;
+            width: 100%;
+        }
+
+        .carousel-control-prev {
+            transform: translateX(-70px);
+        }
+        .carousel-control-prev:hover {
+            color: #fff;
+            background-color: transparent;
+            text-decoration: none;
+            outline: 0;
+            opacity: .9;
+        }
+        .carousel-control-next {
+            transform: translateX(70px);
+        }
+        .carousel-control-next:hover {
+            color: #fff;
+            background-color: transparent;
+            text-decoration: none;
+            outline: 0;
+            opacity: .9;
+        }
+        
+    
+        .my-card{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            
+            
+          
+        }
+        .card-title {
+            font-weight: bolder;
+            text-align: inherit;
+            transform: translateX(-80px);
+            margin-top: 10px;
+        }
+        .card-body {
+            height: 230px;
+            padding: 16px 16px 0px 16px;
+            
+        }
+        /*.card-1 :hover {
+            transition: 0.4s;
+            zoom: 1.05;
+            box-shadow: 4px 4px 10px rgb(15, 15, 15);
+        } */
+
+        .card {
+            width: 18rem;
+            transition: transform 0.5s ease; /* Smooth transition */
+          }
+      
+           .main:hover {
+            transform: scale(1.1); /* Zoom in  */
+            box-shadow: 4px 4px 10px rgb(3, 2, 2);
+          }
+      
+          .card-body, .card-title, .card-text, .btn {
+            pointer-events: auto; 
+          }
+      
+        
+.our-vision{
+    position: relative;
+    margin-top:20px
+   
+}
+.our-vision img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+.vision{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    color:white;
+    border: none;
+    border-radius: 10px;
+}
+.our-vision h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    color: white;
+}
+#home{
+    text-decoration:none;
+    color:white;
+    
+}
+.contact{
+    font-weight: bold;
+    text-decoration:none;
+    color: rgb(10, 10, 10);
+}
+.login{
+    height:500px ;
+    width:500px ;
+    background-color:rgba(74, 60, 90, 0.8) ;;
+    margin:auto;
+    border-radius:10px;
+    flex-direction:column;
+}
+
+
+.home{
+    text-decoration:none;
+    color:white;
+}
+.pr-10{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    color: white;
+    text-decoration:none; 
+}
+.pr-10:hover{
+
+    color: gold;
+}
+.home{
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(2, 2, 2);
+}
+
+.aboutme{
+    font-weight: bold;
+    text-decoration:none;
+    color: rgb(5, 5, 5);
+}
+.footer1{
+    height:120px ;
+    width:auto;
+    background-color:rgb(83, 97, 83);
+    /* margin-top:10px; */
+    box-shadow: 4px 8px 16px black;
+}
+.ri-github-fill{
+    font-size:35px;
+    padding-left:45%;
+    color: whitesmoke;
+    
+}
+.ri-linkedin-fill{
+    font-size:36px;
+    color: antiquewhite;
+}
+.ri-instagram-line{
+    font-size: 35px;
+    color: whitesmoke;
+}

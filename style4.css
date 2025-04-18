@@ -1,0 +1,18 @@
+.same1{
+    text-decoration:none;
+    padding-top:30px;
+    color: white;
+}
+.new{
+    box-shadow: 2px 4px 8px black;
+}
+.one{
+    height:40px;
+    width:100px;
+    padding:5px;
+    margin-top:20px;
+    margin-right:8px;
+}
+#crops{
+    padding-left:20px;
+}

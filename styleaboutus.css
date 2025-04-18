@@ -1,0 +1,92 @@
+#about2{
+    height:50px;
+    width:100%;
+    
+}
+#about3{
+    height:200px;
+    width:100%;
+    background-color: rgb(102, 68, 18);
+}
+ #topimage{
+    height:200px;
+    width:100%;
+    }
+
+#about4{
+     height:700px;
+     width:auto;
+     background-color:rgb(25, 25, 25);
+     display:inline-block;
+     
+}
+#about5{
+ text-align:center;
+ color: blue;
+}
+#about6{
+   color:rgb(0, 255, 128); 
+   text-decoration: solid;
+   font-weight: bolder;
+   
+   font-size: medium;
+}
+#about7{
+margin-top: 5px;
+    color: red;
+    height:300px ;
+    width:260px ;
+    border-radius:40%;
+    display:inline-block;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+h5{
+    margin: 70px;
+    width: 300px;
+}
+#aboutimg1{
+    position: relative;
+    height:300px ;
+    width:300px ;
+    border-radius:50%;
+    display:inline-block;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18px);
+    transform: transition 1s;
+    margin-bottom: 50px;
+    
+}
+
+#aboutimg1:hover{
+    box-shadow:0px 5px rgb(53, 48, 48) ;
+    transform: scale(1.2);
+}
+
+#creator{
+ text-align:center;
+ color: rgb(28, 8, 208);
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;
+ 
+    animation-duration: 3s;
+    animation-name: slide-in;
+  }
+  
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
+#imagediv{
+     background-color: rgba(255, 255, 255, 0.73);
+     backdrop-filter: blur(18px);
+}
+     
